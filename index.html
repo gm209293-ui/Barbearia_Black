@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Barbearia Black | Demonstração de barbearia</title>
+    <meta id="meta-description" name="description" content="Demonstração comercial de site para barbearia: conheça os serviços, veja a experiência mobile e teste uma solicitação de agendamento.">
+    <meta name="theme-color" content="#10100f">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta id="og-site-name" property="og:site_name" content="Barbearia Black">
+    <meta id="og-title" property="og:title" content="Barbearia Black | Demonstração comercial">
+    <meta id="og-description" property="og:description" content="Demonstração de site para barbearia: conheça os serviços, explore a experiência mobile e teste o fluxo de agendamento.">
+    <meta name="twitter:card" content="summary">
+    <meta id="twitter-title" name="twitter:title" content="Barbearia Black | Demonstração de barbearia">
+    <meta id="twitter-description" name="twitter:description" content="Demonstração comercial de site para barbearia.">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%2310100f'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='%23e2c47f' font-family='Georgia,serif' font-size='40'%3EB%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo principal</a>
+    <header>
+      <a href="#inicio" aria-label="Barbearia Black — início">
+        <span id="business-mark" class="brand-mark" aria-hidden="true">B</span>
+        <span class="brand-copy">
+          <span id="business-name">Barbearia Black</span>
+          <span id="brand-caption" class="brand-caption">BARBEARIA • ESTILO</span>
+        </span>
+      </a>
+
+      <nav aria-label="Navegação principal">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <a id="header-booking-button" class="header-cta" href="#agendamento">Agendar horário</a>
+    </header>
+
+    <aside id="demo-notice" class="demo-notice" role="note">
+      Demonstração comercial — marca, preços, localização e contatos são ilustrativos.
+    </aside>
+
+    <main id="conteudo-principal">
+      <section id="inicio" aria-labelledby="titulo-principal">
+        <div class="hero-copy">
+          <p id="hero-eyebrow" class="eyebrow"><span aria-hidden="true"></span> CUIDADO CLÁSSICO. ATITUDE CONTEMPORÂNEA.</p>
+          <h1 id="titulo-principal">Seu estilo começa aqui</h1>
+          <p id="hero-description">Bem-vindo à Barbearia Black. Estamos preparando uma experiência especial para você.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#agendamento"><span id="hero-booking-button">Agendar horário</span> <span aria-hidden="true">↗</span></a>
+            <a id="hero-services-button" class="button button-secondary" href="#servicos">Conheça nossos serviços</a>
+          </div>
+          <p id="hero-caption" class="hero-caption">Uma experiência de barbearia pensada para você.</p>
+        </div>
+        <figure class="hero-visual">
+          <img id="hero-image" alt="Interior de barbearia em foto ilustrativa" width="1200" height="1500" fetchpriority="high">
+          <figcaption id="hero-image-caption">Imagem ilustrativa — não representa um estabelecimento real.</figcaption>
+          <span class="hero-stamp" aria-hidden="true"><span id="business-monogram">BB</span><span>ESTILO<br>SEMPRE</span></span>
+        </figure>
+        <a id="hero-scroll-label" class="hero-scroll" href="#servicos"><span aria-hidden="true">↓</span> Descubra a experiência</a>
+      </section>
+
+      <section id="servicos" aria-labelledby="titulo-servicos">
+        <div class="section-heading">
+          <p id="services-eyebrow" class="eyebrow">O ESSENCIAL, BEM FEITO</p>
+          <h2 id="titulo-servicos">Nossos serviços</h2>
+        </div>
+        <p id="services-description">Confira alguns dos serviços oferecidos pela barbearia.</p>
+        <ul id="service-list"></ul>
+        <p id="services-demo-note" class="demo-detail">Serviços e valores exibidos são exemplos demonstrativos.</p>
+        <a class="text-link" href="#agendamento"><span id="services-booking-link">Escolha seu serviço e solicite um horário</span> <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section id="sobre" aria-labelledby="titulo-sobre">
+        <div class="about-visual" aria-hidden="true">
+          <span id="about-monogram" class="about-ornament">BB</span>
+          <span id="about-vertical" class="about-vertical">BARBEARIA BLACK · DEMONSTRAÇÃO</span>
+        </div>
+        <div class="about-copy">
+          <p id="about-eyebrow" class="eyebrow">MAIS QUE UM CORTE</p>
+          <h2 id="titulo-sobre">Sobre a Barbearia Black</h2>
+          <p id="about-description">
+            Somos uma barbearia dedicada a oferecer bom atendimento e cuidado com o seu estilo.
+            Em breve, teremos mais informações sobre nossa história.
+          </p>
+          <a class="text-link" href="#contato"><span id="about-contact-link">Fale conosco</span> <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section id="galeria" aria-labelledby="titulo-galeria">
+        <div class="section-heading">
+          <p id="gallery-eyebrow" class="eyebrow">INSPIRAÇÃO PARA O SEU PRÓXIMO VISUAL</p>
+          <h2 id="titulo-galeria">Galeria</h2>
+        </div>
+        <p id="gallery-description">Uma seleção de referências visuais para esta demonstração.</p>
+        <div id="gallery-grid" class="gallery-grid">
+          <figure id="gallery-figure">
+            <img alt="Interior de barbearia em foto ilustrativa" width="1200" height="800" loading="lazy" decoding="async">
+            <figcaption>Interior de barbearia — imagem ilustrativa.</figcaption>
+          </figure>
+        </div>
+        <p id="gallery-demo-note" class="demo-detail">As imagens são referências visuais e não representam o espaço ou os profissionais de uma empresa real.</p>
+      </section>
+
+      <section id="contato" aria-labelledby="titulo-contato">
+        <div class="section-heading">
+          <p id="contact-eyebrow" class="eyebrow">ESTAMOS POR AQUI</p>
+          <h2 id="titulo-contato">Entre em contato</h2>
+        </div>
+        <p id="contact-description">Quer saber mais ou agendar um horário? Fale com a gente.</p>
+
+        <div class="contact-layout">
+          <div class="contact-details">
+            <article class="location-card">
+              <span class="contact-icon" aria-hidden="true">⌖</span>
+              <p id="location-eyebrow" class="eyebrow">LOCALIZAÇÃO</p>
+              <h3 id="location-title">Encontre seu novo estilo</h3>
+              <p id="business-address">Localização demonstrativa — endereço fictício.</p>
+              <p id="location-note" class="demo-detail">Região ilustrativa. Este estabelecimento não existe neste endereço.</p>
+            </article>
+            <div class="contact-meta">
+              <div>
+                <p id="contact-methods-eyebrow" class="eyebrow">FALE CONOSCO</p>
+                <p id="business-phone"><span id="phone-fallback">Telefone demonstrativo — não disponível.</span></p>
+                <p id="business-email"><span id="email-fallback">E-mail demonstrativo — não disponível.</span></p>
+                <p id="business-instagram" hidden></p>
+              </div>
+              <div>
+                <p id="hours-eyebrow" class="eyebrow">FUNCIONAMENTO</p>
+                <p id="business-hours">Horários ilustrativos para esta demonstração.</p>
+              </div>
+            </div>
+          </div>
+
+        <form id="booking-form" class="booking-form" action="#agendamento" method="post" novalidate>
+          <span id="agendamento" class="anchor-target" aria-hidden="true"></span>
+          <h3 id="booking-form-title">Solicite um agendamento</h3>
+          <p id="booking-description" class="booking-form-description">
+            Escolha o serviço e o melhor horário para enviar sua solicitação.
+          </p>
+
+          <div class="booking-fields">
+            <div class="form-field">
+              <label for="booking-name"><span id="booking-name-label">Nome</span></label>
+              <input
+                id="booking-name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                placeholder="Seu nome completo"
+                required
+              >
+            </div>
+
+            <div class="form-field">
+              <label for="booking-service"><span id="booking-service-label">Serviço desejado</span></label>
+              <select id="booking-service" name="service" required>
+                <option id="service-placeholder" value="" selected disabled>Selecione um serviço</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="booking-date"><span id="booking-date-label">Data desejada</span></label>
+              <input id="booking-date" name="date" type="date" required>
+            </div>
+
+            <div class="form-field">
+              <label for="booking-time"><span id="booking-time-label">Horário desejado</span></label>
+              <input id="booking-time" name="time" type="time" required>
+            </div>
+          </div>
+
+          <button id="booking-submit" class="booking-submit" type="submit" disabled>Agendar horário</button>
+          <p id="booking-feedback" class="booking-feedback" role="status" aria-live="polite"></p>
+        </form>
+        </div>
+        <noscript>
+          <p>Ative o JavaScript para enviar sua solicitação de agendamento pelo WhatsApp.</p>
+        </noscript>
+      </section>
+    </main>
+
+    <footer>
+      <p id="copyright">&copy; 2026 Barbearia Black. Site demonstrativo — informações ilustrativas.</p>
+    </footer>
+  </body>
+</html>
